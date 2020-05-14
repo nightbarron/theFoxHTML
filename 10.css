@@ -1,0 +1,288 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.topHeader {
+    border-top: 5px solid #0787d4;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: #21c2f8;
+}
+
+.topHeader .row {
+    padding-top: 5px;
+    left: 25%;
+    position: relative;
+}
+
+.topHeader .row .someIcons a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+    border-bottom: none;
+    height: 45px;
+}
+
+.topHeader .row .someIcons a:hover {
+    transform: scale(1.2);
+}
+
+.btnCustom {
+    margin-top: -2px;
+}
+
+.btnCustom a{
+    margin: 0px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    border-color: white;
+    color: white;
+}
+
+.btnCustom a.btn-secondary {
+    background-color: white;
+    color: gray;
+}
+
+.navBar {
+    box-shadow: 0px 5px 10px grey;
+    -moz-box-shadow: 0px 5px 10px grey; /*firefox*/
+    -webkit-box-shadow: 0px 5px 10px grey; /*chrome, safari */
+    -o-box-shadow:0px 5px 10px grey; /* opera */
+    -ms-box-shadow: 0px 5px 10px grey; /* IE */
+}
+
+.navLink li a{
+    padding: auto 21px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    height: 126px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navLink li a:hover {
+    color: #21c2f8!important;
+    border-top: 5px solid #21c2f8;
+}
+
+.carouselCustom {
+    height: auto;
+}
+
+.carouselCustom .carousel-inner .carousel-item div{
+    top: 25%;
+    left: 10%;
+    width: 50%;
+    text-align: left;
+}
+
+.carousel-caption ul {
+    list-style-image: url(src/TheFox/images/iconTick.png);
+}
+
+.carousel-caption ul li {
+    color: #222533;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1.7vw;
+    line-height: 5vh;
+    transition: 0.4s;
+}
+
+.carousel-caption h1 {
+    color: #222533;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 3.5vw;
+    line-height: 5vh;
+}
+
+.imgBG {
+    height: 40vw;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+.carousel-caption h2 {
+    color: #222533;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5vw;
+    line-height: 5vh;
+}
+
+.carousel-caption ul li:hover {
+    list-style-image: url(src/TheFox/images/iconActive.png);
+    list-style-position: -2px;
+    transition: 0.4s;
+    font-size: 2vw;
+}
+
+.btnCarouselCustom {
+    background-color: #222533!important;
+    border-color: #222533;
+    transition: 0.4s;
+
+}
+
+.btnCarouselCustom:hover {
+    background-color: #222533a8!important;
+    border-color: #222533a8;
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
+.service {
+    margin-top: 6vw;
+}
+
+.service .col-sm-6 h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 36pt;
+    line-height: 50pt;
+    font-weight: 300;
+}
+
+.service h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    margin-top: 1.7vw;
+}
+
+.service .btnLeft {
+    text-transform: uppercase!important;
+    background-color:#a1b1bc!important;
+    color: white!important;
+    border-color: #a1b1bc!important;
+    margin-top: 1vw;
+}
+
+.service .btnLeft:hover{
+    background-color:#6a7a85!important;
+}
+
+.btnRight {
+    width: 100%;
+    border: 1px solid gray;
+    display: block;
+    padding-bottom: 13px;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    padding-left: 10px;
+}
+
+
+.btnRight button {
+    float: right;
+    border: none!important;
+}
+
+.btnRight button:hover {
+    background-color: gray!important;
+}
+
+.btnRight button:focus {
+    border-color: none!important;
+}
+
+.titleWork {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.amazingWork {
+    margin-top: 50px;
+    width: inherit;
+    padding-bottom: 350px;
+    padding-top: 30px;
+    background-color: rgba(128, 128, 128, 0.13);
+}
+
+.amazingWork div.col-sm-4{
+    height: inherit;
+    width: inherit;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.amazingWork div.col-sm-4 p{
+    border: 1px solid rgba(128, 128, 128, 0.356);
+    padding: 10px;
+    border-bottom: none;
+    margin: 0px;
+}
+
+.layer1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: inherit;
+    height: 11vw;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.layer2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: inherit;
+    height: 11vw;
+    opacity: 0;
+    z-index: 2;
+    background-color: #222534;
+    transition: 0.4s;
+}
+
+.amazingWork .row .col-sm-4:hover .layer2{
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.amazingWork .row .col-sm-4 p{
+    color: #222533;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.amazingWork .row .col-sm-4:hover p{
+    color: rgb(107, 94, 94);
+    background-color: rgba(128, 128, 128, 0.527);
+}
+
+.amazingWork .row .col-sm-4:hover p span{
+    color: rgb(146, 35, 54)!important;
+    transition: 0.4s;
+}
+
+.row2 {
+    margin-top: 11vw;
+}
+
+
+.col-sm-15 {
+    width: 20%;
+
+    height: 50vw;
+}
+
+.col-sm-15 p {
+    font-family: 'Lato', sans-serif;
+    
+}
+
+
