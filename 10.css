@@ -180,12 +180,18 @@ html, body {
     border-radius: 5px;
     font-family: 'Lato', sans-serif;
     padding-left: 10px;
+    padding-top: 10px;
 }
 
 
 .btnRight button {
     float: right;
     border: none!important;
+}
+
+.btnRight button.btn.btn-outline-primary {
+    height: 47px;
+    margin-top: -10px;
 }
 
 .btnRight button:hover {
@@ -323,6 +329,159 @@ html, body {
     transition: 0.4s;
 }
 
+#carousel125 .carousel-inner .carousel-item .col-sm-6 {
+    
+    
+    
+    box-sizing: border-box;
+}
 
+#carousel125 .carousel-inner .carousel-item .col-sm-6 .row{
+    background-color: rgba(128, 128, 128, 0.048);
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 30px;
+    padding-left: 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    border: 2px solid rgba(128, 128, 128, 0.205);
+}
+
+#carousel125 .carousel-inner .carousel-item .col-sm-6 img {
+    border-radius: 50%;
+    border: 2px solid #2225335d;
+}
+
+#carousel125 .carousel-inner .carousel-item .col-sm-6 .row .col-sm-4 {
+    position: relative;
+}
+
+#carousel125 .carousel-inner .carousel-item .col-sm-6 .layer2{
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    width: 144px;
+    height: 144px;
+    border-radius: 50%;
+    z-index: 2;
+    opacity: 0;
+    transition: 0.4s;
+    background-color: #222533;
+}
+
+#carousel125 .carousel-inner .carousel-item .col-sm-6:hover .col-sm-4 .layer2{
+    opacity: 1;
+    transition: 0.4s;
+    transform: scale(0.95);
+    left: 13px;
+    top: -1px;
+}
+
+#carousel125 .carousel-inner .carousel-item .col-sm-6:hover .row{
+    background: none;
+}
+
+#carousel125 .carousel-inner .carousel-item .col-sm-6 .col-sm-8 {
+    font-family: 'Lato', sans-serif;
+}
+
+#carousel125 .carousel-inner .carousel-item .col-sm-6 .col-sm-8 h2 {
+    line-height: 20px;
+}
+
+#carousel125 {
+    margin-top: 80px;
+}
+
+.btnCarouselRight {
+    font-size: 20px;
+    top: -50px;
+    left: -1px;
+    position: absolute;
+    width: 120px;
+    text-align: center;
+    color: gray;
+    border-color: gray;
+}
+
+.btnCarouselLeft {
+    font-size: 20px;
+    top: -50px;
+    right: -1px;
+    position: absolute;
+    width: 120px;
+    text-align: center;
+    color: gray;
+    border-color: gray;
+}
+
+.btnCarouselRight i, .btnCarouselLeft i{
+    font-size: 15px!important;
+}
+
+.btnCarouselRight:hover i.fa, .btnCarouselLeft:hover i.fa{
+    color: white!important;
+}
+
+.prevControl {
+    width: 50%;
+    height: 0px;
+}
+
+.nextControl {
+    width: 50%;
+    height: 0px;
+}
+
+.titleCarouselBottom {
+    font-family: 'Lato', sans-serif; 
+    margin-top: 100px;
+}
+
+.brandLogo .col-sm-2 img{
+    width: 170px;
+    height: 140px;
+    object-fit: none;
+    object-position: 0px 18px;
+    /* anh trang den  */
+    filter: grayscale(100%);
+     -webkit-filter: grayscale(100%);
+     -moz-filter: grayscale(100%);
+     -ms-filter: grayscale(100%);
+     -o-filter: grayscale(100%);
+     transition: 0.4s;
+}
+
+.brandLogo .col-sm-2:hover img {
+    filter: grayscale(0%);
+     -webkit-filter: grayscale(0%);
+     -moz-filter: grayscale(0%);
+     -ms-filter: grayscale(0%);
+     -o-filter: grayscale(0%);
+
+     transition: 0.4s;
+}
+
+.brand2 {
+    object-position: -200px 18px!important;
+    width: 186px!important;
+}
+.brand3 {
+    object-position: -19px -119px!important;
+    height: 90px!important;
+    margin-top: 44px;
+}
+.brand4 {
+    object-position: -386px 25px!important;
+}
+.brand5 {
+    object-position: -204px -111px!important;
+    height: 90px!important;
+    margin-top: 38px;
+}
+.brand6 {
+    object-position: -558px 30px!important;
+}
 
 
