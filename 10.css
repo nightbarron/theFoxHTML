@@ -530,11 +530,17 @@
         
         .bannerBelow .col-sm-15 {
             width: 20%;
+            padding: -5px;
         }
         
         .bannerBelow .layer3 {
             position: relative;
             z-index: 1;
+            object-fit: cover;
+        }
+        
+        .bannerBelow .layer3 img {
+            padding: 0px;
             object-fit: cover;
         }
         
@@ -559,4 +565,15 @@
         
         .bannerBelow .d-flex:hover .layer4 {
             opacity: 100%;
+        }
+        
+        footer {
+            padding-top: 8vh;
+            padding-bottom: 10vh;
+            background-color: #a1b1bc;
+        }
+        
+        .wrapper h3 {
+            font-size: 30px;
+            margin-bottom: 40px;
         }
